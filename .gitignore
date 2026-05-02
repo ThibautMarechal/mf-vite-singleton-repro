@@ -1,3 +1,5 @@
 node_modules
 dist
 .vite
+.vscode/settings.json
+.__mf__temp/
