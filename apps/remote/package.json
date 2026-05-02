@@ -1,0 +1,21 @@
+{
+  "name": "remote",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5001",
+    "build": "vite build",
+    "preview": "vite preview --port 5001"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "company-sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^1.15.1",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.3.5"
+  }
+}

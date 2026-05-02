@@ -1,0 +1,9 @@
+{
+  "name": "mf-vite-singleton-repro",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "dev:remote": "pnpm --filter remote dev",
+    "dev:host": "pnpm --filter host dev"
+  }
+}
